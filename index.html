@@ -10,15 +10,18 @@
 <!-- partial:index.partial.html -->
 <header>UCAPAN SELAMAT</header>
 
-<form id="form" class="topBefore">
+<form id="form" class="topBefore" action="https://docs.google.com/forms/d/1HNT4O3bFCciHs2WZUfxpezFPIUoJ4TMMvWCkSaz-Vf4/formResponse?" onsubmit="submitted=true;">
 		
-		  <input id="name" type="text" placeholder="NAMA">
-		  <textarea id="message" type="text" placeholder="PESAN"></textarea>
+		  <input name="entry.807814165" id="entry.807814165" type="text" placeholder="NAMA">
+		  <textarea name="entry.411280567" id="entry.411280567" type="text" placeholder="PESAN"></textarea>
   <input id="submit" type="submit" value="KIRIM">
   
 </form>
+<iframe name="hidden_iframe" id="hidden_iframe"
+                            style="display:none;" onload="if(submitted){redirect()}"></iframe>
 <!-- partial -->
   <script  src="./script.js"></script>
+  <script  src="./submit.js"></script>
 
 </body>
 </html>
